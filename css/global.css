@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+    background-image: linear-gradient(45deg,red,gray) ;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+* {
+    font-family: "Roboto";
+    transition: all;
+    transition-duration: .5s;
+}
+
+.title {
+    font-size: 50px;
+    background-color: rgb(0, 4, 255);
+    padding: 15px;
+    margin: 0px; 
+    border-radius: 25px;
+}
+
+.buttoncontainer {
+    margin: 25px;
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(0, 128, 0); 
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.39);
+    border: 5px solid black;
+    border-radius: 5%;
+    color: black;
+    padding: 32px 64px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vmax;
+    /*position: absolute;
+    top: 30%;*/
+}
+
+.button:hover {
+    background-color: rgb(0, 116, 0); 
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
+    border: 5px solid black;
+}
+
+.button:active {
+    background-color: rgb(0, 167, 0); 
+    box-shadow: 0px 0px rgba(0, 0, 0, 1);
+    border: 5px solid black;
+}
